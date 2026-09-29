@@ -7,24 +7,74 @@ import Navbar from "./Navbar";
 const HeroBanner = () => {
   return (
     <section className="hero-section relative mx-auto min-h-167.5 w-full max-w-full overflow-hidden bg_blue text-white">
-      <div className="hidden md:block absolute left-0 top-24 z-20 ">
-        <Image
-          src="/heroOne.png"
-          alt="Banner image"
-          width={200}
-          height={200}
-          priority
-          className="h-auto w-32 object-contain sm:w-40 lg:w-50"
-        />
+      <div
+        className="hidden md:block absolute left-0 top-24 z-20 w-60.5 h-90.75"
+        style={{
+          maskImage: "url('/heroOne.png')",
+          WebkitMaskImage: "url('/heroOne.png')",
+          maskRepeat: "no-repeat",
+          WebkitMaskRepeat: "no-repeat",
+          maskSize: "contain",
+          WebkitMaskSize: "contain",
+          maskPosition: "center",
+          WebkitMaskPosition: "center",
+          backgroundColor: "#CCFF00",
+        }}
+      >
+        
+      </div>
+      <div
+        className="hidden md:block absolute -right-18 top-24 z-20 w-60.5 h-90.75"
+        style={{
+          maskImage: "url('/heroFour.png')",
+          WebkitMaskImage: "url('/heroFour.png')",
+          maskRepeat: "no-repeat",
+          WebkitMaskRepeat: "no-repeat",
+          maskSize: "contain",
+          WebkitMaskSize: "contain",
+          maskPosition: "center",
+          WebkitMaskPosition: "center",
+          backgroundColor: "#CCFF00",
+        }}
+      >
+        
+      </div>
+      <div
+        className="hidden md:block absolute right-18 bottom-0 z-20 w-30.5 h-60.75"
+        style={{
+          maskImage: "url('/heroFive.png')",
+          WebkitMaskImage: "url('/heroFive.png')",
+          maskRepeat: "no-repeat",
+          WebkitMaskRepeat: "no-repeat",
+          maskSize: "contain",
+          WebkitMaskSize: "contain",
+          maskPosition: "center",
+          WebkitMaskPosition: "center",
+          backgroundColor: "white",
+        }}
+      >
+        
+      </div>
+      <div
+        className="hidden md:block absolute left-50 bottom-27 z-20 w-30.5 h-60.75"
+        style={{
+          maskImage: "url('/heroFive.png')",
+          WebkitMaskImage: "url('/heroFive.png')",
+          maskRepeat: "no-repeat",
+          WebkitMaskRepeat: "no-repeat",
+          maskSize: "contain",
+          WebkitMaskSize: "contain",
+          maskPosition: "center",
+          WebkitMaskPosition: "center",
+          backgroundColor: "white",
+        }}
+      >
+        
       </div>
       <div className="hero-grid absolute inset-0" />
-      {/* <div className="hero-decoration hero-decoration-left" /> */}
-
-      <div className="hero-decoration hero-decoration-right" />
+      
       <div className="hero-ring hero-ring-left" />
-      <div className="hero-ring hero-ring-right" />
-      <div className="hero-squiggle hero-squiggle-one" />
-      <div className="hero-squiggle hero-squiggle-two" />
+      
       <div className="hero-triangle" />
       <Navbar />
       <div className="relative z-10 mx-auto flex max-w-220 flex-col items-center px-4 pt-10.75 text-center sm:pt-12.5">
