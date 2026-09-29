@@ -164,9 +164,7 @@
   background-size: 76px 76px;
 }
 
-/* ========================================
-   LIME DECORATIONS
-======================================== */
+
 
 .hero-decoration {
   position: absolute;
@@ -174,7 +172,7 @@
   background: #d4fb20;
 }
 
-/* Left lime strokes */
+
 .hero-decoration-left {
   top: 185px;
   left: -38px;
@@ -191,7 +189,7 @@
     16px 75px 0 -4px #d4fb20;
 }
 
-/* Right organic shape */
+
 .hero-decoration-right {
   top: 178px;
   right: -42px;
@@ -219,9 +217,7 @@
   transform: rotate(37deg);
 }
 
-/* ========================================
-   WHITE RINGS
-======================================== */
+
 
 .hero-ring {
   position: absolute;
@@ -286,9 +282,7 @@
   transform: rotate(-28deg);
 }
 
-/* ========================================
-   TRIANGLE
-======================================== */
+
 
 .hero-triangle {
   position: absolute;
@@ -311,9 +305,7 @@
   );
 }
 
-/* ========================================
-   FLOATING CARDS
-======================================== */
+
 
 .hero-card {
   position: absolute;
@@ -329,11 +321,8 @@
 }
 
 .hero-card-course {
-  left: calc(50% - 206px);
+  left: calc(43% - 205px);
   bottom: 214px;
-
-  width: 134px;
-
   padding: 13px 10px;
 }
 
