@@ -6,7 +6,7 @@ import { Loader } from "lucide-react";
 const BrandSection = () => {
     return (
       <section className="p-7 md:p-20 bg-[#F5F5F6]">
-        <div className="md:flex justify-between gap-4 md:gap-2 items-center">
+        <div className="flex flex-wrap justify-between gap-4 md:gap-2 items-center">
           <div className="flex items-center gap-2">
             <div
               className=" w-5 h-5"

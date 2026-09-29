@@ -8,7 +8,7 @@ import { SignalMedium, Star } from "lucide-react";
 
 const Product = () => {
     return (
-      <div className="mb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-10-12 mx-auto">
+      <div className="mb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-93.3333% mx-auto">
         <Card className="relative mx-auto w-full max-w-sm overflow-hidden px-4 py-4 rounded-2xl">
           <div className="relative">
             <Image

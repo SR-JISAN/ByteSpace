@@ -29,7 +29,7 @@ const PassionSection = () => {
       
     ];
     return (
-      <section className="my-15">
+      <section className="my-20">
         <div>
           <h1 className="text-center  font-bold text-5xl">
             Discover Your Passion, <br /> Build Your Skills
