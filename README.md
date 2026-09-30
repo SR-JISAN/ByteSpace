@@ -6,9 +6,9 @@ ByteSpace is designed to provide a clean and engaging interface for discovering 
 
 ## Live Demo
 
-**Live Website:** https://byte-space.vercel.app/
+**Live Website: https://byte-space-gamma.vercel.app
 
-**Repository:** https://github.com/SR-JISAN/ByteSpace
+**Repository: https://github.com/SR-JISAN/ByteSpace
 
 ---
 
