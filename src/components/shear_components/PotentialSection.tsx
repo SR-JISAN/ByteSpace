@@ -2,7 +2,7 @@
 
 const PotentialSection = () => {
     return (
-      <section className="hero-section relative bg_blue w-full h-100 mb-20 hero-grid overflow-hidden">
+      <section className="hero-section relative py-20 bg_blue w-full  mb-20 hero-grid overflow-hidden">
         <div
           className="hidden md:block absolute left-0 -top-16 z-20 w-60.5 h-90.75"
           style={{
@@ -32,7 +32,7 @@ const PotentialSection = () => {
           }}
         ></div>
         <div
-          className="hidden md:block absolute right-18 bottom-0 z-20 w-30.5 h-60.75"
+          className="hidden md:block absolute right-61 bottom-0 z-20 w-30.5 h-60.75"
           style={{
             maskImage: "url('/heroFive.png')",
             WebkitMaskImage: "url('/heroFive.png')",
