@@ -3,6 +3,7 @@ import HeroBanner from "@/components/shear_components/HeroBanner";
 import LearningPathSection from "@/components/shear_components/LearningPathSection";
 import PassionSection from "@/components/shear_components/PassionSection";
 import Product from "@/components/shear_components/Product";
+import ProfessionalGrowthSection from "@/components/shear_components/ProfessionalGrowthSection";
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       <PassionSection></PassionSection>
       <Product></Product>
       <LearningPathSection></LearningPathSection>
+      <ProfessionalGrowthSection></ProfessionalGrowthSection>
     </>
   );
 }

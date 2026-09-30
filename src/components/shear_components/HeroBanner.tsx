@@ -118,7 +118,7 @@ const HeroBanner = () => {
         </span>
       </div>
       <div className="hero-card hero-card-progress">
-        <p className="text-[9px] font-medium text-[#222]">Learning Progress</p>
+        <p className="text-sm font-medium text-[#222]">Learning Progress</p>
         <strong className="mt-1 block text-[30px] leading-none text-[#222]">
           55%
         </strong>
