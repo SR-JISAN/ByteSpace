@@ -231,6 +231,18 @@
 
   transform: rotate(-20deg);
 }
+.hero-ring-two {
+  position: absolute;
+  z-index: 3;
+
+  width: 125px;
+  height: 125px;
+
+  border: 38px solid #D4FB20;
+  border-radius: 50%;
+
+  transform: rotate(-20deg);
+}
 
 .hero-ring-left {
   left: 48px;

@@ -298,7 +298,7 @@ const ProfessionalGrowthSection = () => {
 
               <p className="my-10 text-lg leading-7 text-[#4B4C53] sm:text-base">
                 <span className="font-bold text-black text-xl">ByteSpace</span>
-                supports individuals or entities in the creation, publication,
+                 supports individuals or entities in the creation, publication,
                 <br /> and administration of educational courses.
               </p>
               <div className="flex items-center  gap-5">
